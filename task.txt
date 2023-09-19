@@ -1,0 +1,25 @@
+По ссылке https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_columns
+есть таблица Shippers
+
+Задача:
+Создать программу на JS, входные данные в виде JSON:
+var myJSON = '{"Operation":"I", "ShipperID":"4", "ShipperName":"DPD", 
+"Phone":"+7 (910) 440 44 34"}'
+
+Note: при выполнении задания исходный номер телефона был изменен
+на "910 4404434" для демонстрации работы логики
+
+Распарсить объект myJSON и создать строку insert/update/delete в таблице Shippers в 
+зависимости от переменой Operation {I Insert, U Update, D Delete}
+
+Результат положить в переменую mySentence и показать на экране:
+console.log(mySentence)
+
+Проверка валидности mySentence можно проверить в
+https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_columns
+
+Программу можно создать в
+https://www.programiz.com/javascript/online-compiler/
+https://playcode.io/javascript
+
+Note: Вы можете изменить переменные Operation или ShipperID для проверки логики
